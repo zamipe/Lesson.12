@@ -1,0 +1,52 @@
+body {
+    background: lightgray;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+}
+
+.out {
+    justify-content: center;
+    margin: 30px 90px;
+ }
+
+.container {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 180px;
+    align-items: stretch;
+    width: 700px;
+}
+
+.lorem {
+    border: black solid 1px;
+    border-radius: 5px;
+    background-color: tomato; 
+    width: auto;
+    margin: 10px;
+    padding: 10px;
+}
+
+.row2 :nth-child(1) {
+    flex-basis: 30%;
+}
+.row2 :nth-child(2) {
+    flex-basis: 40%;
+}
+.row2 :nth-child(3) {
+    flex-basis: 30%;
+}
+
+.lorem-3 {
+    flex-basis: 30%;
+}
+.lorem-4 {
+    flex-basis: 70%;
+}
+.lorem-left {
+    flex-basis: 70%;
+}
+.lorem-right {
+    flex-basis: 30%;
+}
