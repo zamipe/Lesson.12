@@ -1,0 +1,23 @@
+body {
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+h1 {
+    color: purple;
+}
+h2 {
+    color: rebeccapurple;
+    font-style: italic;
+}
+.link {
+    color:purple;
+    margin: 10px;
+}
+a {
+    color: salmon;
+    font-style: italic;
+}
